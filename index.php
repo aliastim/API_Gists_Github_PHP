@@ -1,7 +1,7 @@
 <?php
 require_once 'Class/gists.php';
 $gists = new Gists('aliastim');
-$gist = $gists->getGists('gists');
+$gist = $gists->getGists();
 //var_dump($gist);
 
 require("templates/header.php");
