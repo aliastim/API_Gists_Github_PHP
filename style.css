@@ -1,0 +1,22 @@
+.textreview {
+
+}
+.textreview:hover{
+    background: cadetblue !important;
+    color: white !important;
+    cursor: pointer !important;
+}
+
+.textreview:active{
+    background: dodgerblue !important;
+    color: white !important;
+}
+
+.titleGists:after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, cadetblue, #0FBAA9, cadetblue);
+    display: block;
+    margin: 15px auto;
+}
